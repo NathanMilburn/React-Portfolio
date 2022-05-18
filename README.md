@@ -32,23 +32,23 @@ Another development I would like to include is video embedding which may require
 
 ## APPLICATION IN USE
 
-LINK TO DEPLOYED SITE FOUND [HERE](google)
+LINK TO DEPLOYED SITE FOUND [HERE](https://powerful-reef-01808.herokuapp.com/)
 
 Portfolio Site Homepage
 
-![HomePage](./src/assets/images/home-page.png "Portfolio Home Page")
+![HomePage](./client/src/assets/images/home-page.png "Portfolio Home Page")
 
 Portfolio Site About Me Page
 
-![AboutMePage](./src/assets/images/about-me.png "Portfolio About Me Page")
+![AboutMePage](./client/src/assets/images/about-me.png "Portfolio About Me Page")
 
 Portfolio Projects Page 
 
-![ProjectsPage](./src/assets/images/my-work.png "Portfolio Projects Page")
+![ProjectsPage](./client/src/assets/images/my-work.png "Portfolio Projects Page")
 
 Portfolio Contact Me Page
 
-![ContactMePage](./src/assets/images/contact-me.png "Portfolio Contact Me Page")
+![ContactMePage](./client/src/assets/images/contact-me.png "Portfolio Contact Me Page")
 
 
 ## INSTALLATION
