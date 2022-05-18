@@ -1,0 +1,513 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  color: rgb(250, 246, 246);
+  background: #6495ed;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.top-tags {
+  bottom: auto;
+  top: 55px;
+  right: 15px;
+}
+
+.tags {
+  color: #000000;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bottom-tag-html {
+  margin-left: -20px;
+}
+
+.top-header-tag {
+  color: #000000;
+
+}
+
+.container {
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
+}
+
+.about-page {
+  .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 35%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 90%;
+
+      h1 {
+          font-size: 53px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-weight: 400;
+          color: #404040;
+          margin-top: 0;
+          position:relative;
+          margin-bottom: 40px;
+          left: 10px;
+
+          &::before {
+              content: '<h1>';
+              font-family: 'Impact';
+              color: #181818;
+              font-size: 18px;
+              position: absolute;
+              margin-top: -20px;
+              left: -10px;
+              opacity: 0.6;
+              animation: fadeIn 1s 1.7s backwards;
+          }
+  
+          &::after {
+              content: '<h1/>';
+              font-family: 'Impact';
+              color: #181818;
+              font-size: 18px;
+              position: absolute;
+              margin-top: 18px;
+              margin-left: 20px;
+              animation: fadeIn 1s 1.7s backwards;
+              opacity: 0.6;
+          }
+      }
+
+      img {
+          animation: fadeIn 1s 1s backwards;
+          border-radius: 15px;
+          box-shadow: 5px 5px 5px black;
+      }
+
+      p {
+          font-size: 14px;
+          color:#404040;
+          font-family: sans-serif;
+          font-weight: 600;
+          min-width: fit-content;
+          animation: fadeIn 1s 1s backwards;
+
+         li {
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+             font-weight: 300;
+             color: #ffffff
+         }
+      }
+  }
+
+  .text-animate-hover {
+      &:hover {
+          color:#ffffff;
+      }
+  }
+}
+
+.contactMe-page {
+  .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 35%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 90%;
+
+      h1 {
+          font-size: 53px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-weight: 400;
+          color: #404040;
+          margin-top: 0;
+          position:relative;
+          margin-bottom: 40px;
+          left: 10px;
+
+          &::before {
+              content: '<h1>';
+              font-family: 'Impact';
+              color: #181818;
+              font-size: 18px;
+              position: absolute;
+              margin-top: -20px;
+              left: -10px;
+              opacity: 0.6;
+              animation: fadeIn 1s 1.7s backwards;
+          }
+  
+          &::after {
+              content: '<h1/>';
+              font-family: 'Impact';
+              color: #181818;
+              font-size: 18px;
+              position: absolute;
+              margin-top: 18px;
+              margin-left: 20px;
+              animation: fadeIn 1s 1.7s backwards;
+              opacity: 0.6;
+          }
+      }
+
+      img {
+          animation: fadeIn 1s 1s backwards;
+          width: 364px;
+          border-radius: 15px;
+          box-shadow: 5px 5px 5px black;
+      }
+
+      p {
+          font-size: 24px;
+          color:#404040;
+          font-family: Impact;
+          font-weight: 400;
+          min-width: fit-content;
+          animation: fadeIn 1s 1s backwards;
+
+      }
+  }
+
+  .text-animate-hover {
+      &:hover {
+          color:#ffffff;
+      }
+  }
+}
+
+.projects-page {
+  .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 45%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 90%;
+
+      h1 {
+          font-size: 53px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-weight: 400;
+          color: #404040;
+          margin-top: 0;
+          position:relative;
+          margin-bottom: 40px;
+          left: 10px;
+
+          &::before {
+              content: '<h1>';
+              font-family: 'Impact';
+              color: #181818;
+              font-size: 18px;
+              position: absolute;
+              margin-top: -20px;
+              left: -10px;
+              opacity: 0.6;
+              animation: fadeIn 1s 1.7s backwards;
+          }
+  
+          &::after {
+              content: '<h1/>';
+              font-family: 'Impact';
+              color: #181818;
+              font-size: 18px;
+              position: absolute;
+              margin-top: 18px;
+              margin-left: 20px;
+              animation: fadeIn 1s 1.7s backwards;
+              opacity: 0.6;
+          }
+      }
+
+      img {
+          animation: fadeIn 1s 1s backwards;
+          width: 200px;
+          height: 100px;
+          border-radius: 15px;
+          box-shadow: 5px 5px 5px black;
+          display: grid;
+          flex-direction: row;
+      }
+
+      p {
+          font-size: 24px;
+          color:#404040;
+          font-family: Impact;
+          font-weight: 400;
+          min-width: fit-content;
+          animation: fadeIn 1s 1s backwards;
+
+      }
+
+      a {
+          font-size: 20px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          text-decoration: none;
+          color:#383737
+      }
+  }
+
+  .text-animate-hover {
+      &:hover {
+          color:#ffffff;
+      }
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .about-page {
+      .text-zone {
+          position: absolute;
+          left: 22%;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 75%;
+          vertical-align: middle;
+          display: table-cell;
+          max-height: 90%;
+  
+          h1 {
+              font-size: 40px;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              font-weight: 400;
+              color: #404040;
+              margin-top: 0;
+              position:relative;
+              margin-bottom: 15px;
+              left: 10px;
+  
+              &::before {
+                  content: '<h1>';
+                  font-family: 'Impact';
+                  color: #181818;
+                  font-size: 18px;
+                  position: absolute;
+                  margin-top: -20px;
+                  left: -10px;
+                  opacity: 0.6;
+                  animation: fadeIn 1s 1.7s backwards;
+              }
+      
+              &::after {
+                  content: '<h1/>';
+                  font-family: 'Impact';
+                  color: #181818;
+                  font-size: 18px;
+                  position: absolute;
+                  margin-top: 18px;
+                  margin-left: 20px;
+                  animation: fadeIn 1s 1.7s backwards;
+                  opacity: 0.6;
+              }
+          }
+  
+          img {
+              animation: fadeIn 1s 1s backwards;
+              border-radius: 15px;
+              box-shadow: 5px 5px 5px black;
+          }
+  
+          p {
+              font-size: 12px;
+              color:#404040;
+              font-family: sans-serif;
+              font-weight: 600;
+              min-width: fit-content;
+              animation: fadeIn 1s 1s backwards;
+  
+             li {
+                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                 font-weight: 300;
+                 color: #ffffff
+             }
+          }
+      }
+  
+      .text-animate-hover {
+          &:hover {
+              color:#ffffff;
+          }
+      }
+  }
+
+  .projects-page {
+      .text-zone {
+          position: absolute;
+          left: 30%;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 35%;
+          vertical-align: middle;
+          display: table-cell;
+          max-height: 90%;
+  
+          h1 {
+              font-size: 40px;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              font-weight: 400;
+              color: #404040;
+              margin-top: 0;
+              position:relative;
+              margin-bottom: 15px;
+              left: 10px;
+  
+              &::before {
+                  content: '<h1>';
+                  font-family: 'Impact';
+                  color: #181818;
+                  font-size: 18px;
+                  position: absolute;
+                  margin-top: -20px;
+                  left: -10px;
+                  opacity: 0.6;
+                  animation: fadeIn 1s 1.7s backwards;
+              }
+      
+              &::after {
+                  content: '<h1/>';
+                  font-family: 'Impact';
+                  color: #181818;
+                  font-size: 18px;
+                  position: absolute;
+                  margin-top: 18px;
+                  margin-left: 20px;
+                  animation: fadeIn 1s 1.7s backwards;
+                  opacity: 0.6;
+              }
+          }
+  
+          img {
+              animation: fadeIn 1s 1s backwards;
+              width: 190px;
+              height: 90px;
+              border-radius: 15px;
+              box-shadow: 5px 5px 5px black;
+          }
+  
+          p {
+              font-size: 24px;
+              color:#404040;
+              font-family: Impact;
+              font-weight: 400;
+              min-width: fit-content;
+              animation: fadeIn 1s 1s backwards;
+  
+          }
+  
+          a {
+              font-size: 20px;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              text-decoration: none;
+          }
+      }
+  
+      .text-animate-hover {
+          &:hover {
+              color:#ffffff;
+          }
+      }
+  }
+
+  .contactMe-page {
+      .text-zone {
+          position: absolute;
+          left: 25%;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 35%;
+          vertical-align: middle;
+          display: table-cell;
+          max-height: 90%;
+  
+          h1 {
+              font-size: 40px;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              font-weight: 400;
+              color: #404040;
+              margin-top: 0;
+              position:relative;
+              margin-bottom: 40px;
+              left: 10px;
+  
+              &::before {
+                  content: '<h1>';
+                  font-family: 'Impact';
+                  color: #181818;
+                  font-size: 18px;
+                  position: absolute;
+                  margin-top: -20px;
+                  left: -10px;
+                  opacity: 0.6;
+                  animation: fadeIn 1s 1.7s backwards;
+              }
+      
+              &::after {
+                  content: '<h1/>';
+                  font-family: 'Impact';
+                  color: #181818;
+                  font-size: 18px;
+                  position: absolute;
+                  margin-top: 18px;
+                  margin-left: 20px;
+                  animation: fadeIn 1s 1.7s backwards;
+                  opacity: 0.6;
+              }
+          }
+  
+          img {
+              animation: fadeIn 1s 1s backwards;
+              width: 364px;
+              border-radius: 15px;
+              box-shadow: 5px 5px 5px black;
+          }
+  
+          p {
+              font-size: 18px;
+              color:#404040;
+              font-family: Impact;
+              font-weight: 400;
+              min-width: fit-content;
+              animation: fadeIn 1s 1s backwards;
+  
+          }
+      }
+  
+      .text-animate-hover {
+          &:hover {
+              color:#ffffff;
+          }
+      }
+  }
+}
